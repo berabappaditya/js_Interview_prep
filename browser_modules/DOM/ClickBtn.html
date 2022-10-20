@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Click Button</title>
+  </head>
+  <body>
+    <input type="text" id="txt" name="txt" placeholder="Enter your name" />
+    <label for="txt">Enter your name</label>
+    <button id="hello">Say Hello</button>
+    <script type="text/javascript">
+      let btn = document.getElementById("hello");
+      btn.addEventListener("click", (e) => {
+        //random color code
+        const random_hex_color_code = () => {
+          let n = (Math.random() * 0xfffff * 1000000).toString(16);
+          return "#" + n.slice(0, 6);
+        };
+
+        
+        let divElement = document.createElement("div");
+        divElement.innerText = "Hello  " + document.getElementById("txt").value;
+        divElement.style.color = random_hex_color_code();
+        let body = document.querySelector("body");
+        body.appendChild(divElement);
+      });
+    </script>
+  </body>
+</html>
