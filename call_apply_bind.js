@@ -9,6 +9,7 @@
 // Bind is a function that helps you create another
 //  function that you can execute later with the new context of this that is provided.
 
+
 var obj = {
   name: "John Doe",
   age: 26,
@@ -17,7 +18,7 @@ var obj = {
     console.log(`Hello ${this.name} your age is ${this.age}`);
   },
 };
-
+// inside obj we have a function greet how to use it with customized parameters and object value for that we use call, bind and apply
 let obj2 = {
   name: "Ramesh",
   age: 25,
