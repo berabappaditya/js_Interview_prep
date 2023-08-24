@@ -3,12 +3,17 @@
  ## Frontend
   ### HTML
    - HTML5 features
+     [read](https://www.browserstack.com/guide/top-html5-features)
    - Proper usage of block scope and inline tags
   ### CSS
    - Different ways to center element
+     [Read](https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/)
    - Flexbox
+     [Read](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
    - Grid
+     [Read](https://css-tricks.com/snippets/css/complete-guide-grid/)
    - Responsiveness
+     [Read](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
  ### React.js
    - Component life Cycle
    - Virtual DOM
