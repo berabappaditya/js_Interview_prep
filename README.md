@@ -36,13 +36,13 @@
    - Error Handling
    - Promise
    - Debounce and throtoling
-   - polyfill
+   - pollyfill
    - Array Method
    - closure
    - object string
    - prototype
    - spread operator
-   - event bubble
+   - event bubbling
    - call back hell
    - call, apply, bind
 ## Typescript
@@ -59,7 +59,7 @@
    - server creation
    - caching
    - cookies
-   - session storage(waht is session)
+   - session storage(what is session)
    - error handling
    - Security
    - Multithreading ( exec, fork, spawn)
