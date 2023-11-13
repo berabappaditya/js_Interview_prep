@@ -93,6 +93,60 @@
 ## Typescript
    - Inteface
    - oops concept
+### Important questions 
+1. How can we fetch API data without using useEffect hook?
+2. What are the security measures which should be considered during development?
+3. Can we return setData inside a component?
+4. Multiple useEffects in a same component?
+5. Higher order components or custom hooks? Which approach will you follow.
+6. Why do we need currying in JS? Explain with example.
+7. Explain Array prototyping, generators.
+8. Explain Middlewares in React which you have used?
+9. Function closures and bind method difference.
+10. Explain service and web workers.
+11. Write a program to fetch real time data for a cricket/football match.
+12. Statess components?
+13. How do you fetch multiple APIs in a single time.
+14. Interceptors in axios library?
+15. React suspense?
+16. How will you select between SSR and CSR for you application? What parameters will you consider.
+17. What is A11y issues? How do you handle it?
+18. Box model, CSS animation, SASS variables and mixins in CSS.
+19. How authentication works with JWT?
+20. What is selective hydration?
+21. Crawlers, indexing a page and what are the ways?
+22. Explain redux architecture.
+23. How will you set redirects using axios library.
+24. Different types of object creation.
+25. Explain hoisting, TDZ.
+26. Explain IIFE with example.
+27. What is obj literal and JSON obj.
+28. First class functions.
+29. Error pages creation
+30. Scopes in JS
+31. Event Loop - Task/MicroTask Queues.
+32. Second Largest numb from array without using Math, sort functions.
+33. Synthetic events
+34. Cookies, localStorage and sessionStorage
+35. How Babel works?
+36. Explain webpack, parcel and some of its features.
+37. Challenges with react js
+38. Memoization techniques, pure functions and pure components.
+39. HTTP methods...explain
+40. Call, apply and bind
+41. Arrow functions, anonymous functions,this keyword
+42. ES6 features.
+43. Create a traingle using CSS
+44. Explain rate limiting and write a small code to demonstrate.
+45. ESLint and security plugins used in your proj?
+46. CORS, CSP and XSS explain
+47. Tree shaking, debouncing and throttling
+48. Write a pgrm for form validation without using any library
+49. Array operations
+50. Nested array operations, flattening of an array likewise
+51. Performance optimization techniques explain
+52. Shallow and deep copy..explain how will you create it
+53. Various hooks syntax useParam, useReducer, useQuery, useContext and many more.
 ## Back end
   ### Node.js
    - Routing
