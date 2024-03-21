@@ -27,12 +27,53 @@
    - Custome Hook
 ### Javascript 
    - Basic Data types
+     ```
+     Primitive Data Type
+     1.Boolean
+     2.Number
+     3.String
+     4.null
+     5.Undefined
+     6.Symbol
+     Non-Premitive Data Type
+     1.Object
+     2.Array
+     3.Function
+     4.Date
+     5.RegExp
+     6.Others(set,Map)ES6 only
+     
+     ```
    - var, let, const
    - ES6 new features
+     ```
+     1. Array Methods with Chainable Calls:
+     Ex. arr.map(),arr.filter()
+     2. Spread Operator (...) for In-place Modifications:
+     Ex. const num = [1, 2, 3, 4, 5];
+         numbers.push(...numbers.map(number => number * 2));
+         console.log(numbers); // Output: [2, 4, 6, 8, 10] (original array modified)
+     3. const and let keywords
+     4. Arrow Function
+     5. Classes
+     6. Enhanced object literals
+     7. Template strings
+     8. Rest and spread operators
+     9. Destructuring
+     10. Promises
+     Ex: function asyncFun(){
+                  return new Promise((resolve,reject)=>{
+                        resolve() or reject()
+                   })
+         }
+     
+     
+     ```
    - Event loop in js
    - OOPs
    - Async Await
    - Hoisting
+   - curring
    - setTime out
    - Lexical Scope
    - Scope chain
