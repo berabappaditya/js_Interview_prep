@@ -26,6 +26,11 @@
    - High order component
    - Custome Hook
 ### Javascript 
+   - what is js
+     ```
+     single threaded non blocking
+     asynchronous concurrent
+     ```
    - Basic Data types
      ```
      Primitive Data Type
@@ -70,6 +75,9 @@
      
      ```
    - Event loop in js
+     ![js eventloop](https://github.com/berabappaditya/js_Interview_prep/assets/39941574/ae932c13-ae0e-452b-a297-0e4419de2e81)
+     [Explanation video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
    - OOPs
    - Async Await
    - Hoisting
