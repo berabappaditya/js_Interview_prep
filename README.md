@@ -5,6 +5,24 @@
    - HTML5 features
      [read](https://www.browserstack.com/guide/top-html5-features)
    - Proper usage of block scope and inline tags
+      ```
+        Block:
+               <div>
+               <p>
+               <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+               <ul>, <ol>, <li>
+               <header>, <footer>, <section>, <article>, <nav>, <aside>
+               <table>, <tr>, <th>, <td>
+       Inline:
+               <span>
+                <a>
+                <img>
+                <strong>, <b>
+                <em>, <i>
+                <code>
+                <br>
+
+       ```
   ### CSS
    - Different ways to center element
      [Read](https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/)
