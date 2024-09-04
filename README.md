@@ -172,6 +172,45 @@
 ## Typescript
    - Inteface
    - oops concept
+
+## Back end
+  ### Node.js
+   - Routing
+   - How node js work(Asynchronous execution)
+   - Rest API
+   - post, put, get, delete 
+   - Different Type of API's(Rest,soap,diff.)
+   - Middleware
+   - server creation
+   - caching
+   - cookies
+   - session storage(what is session)
+   - error handling
+   - Security
+   - Multithreading ( exec, fork, spawn)
+   - Microservices
+   - writing test case in Node.js
+   - why we use express
+   - privaye route
+### MongoDB
+   - Aggregate queries (VVI)
+### DSA (only for fang)
+   - Tri Node
+   - Sorting
+   - graph trees
+   - Dyanamic programming
+   - stack queue
+   - Recursion
+### System design
+   - How to build Scalable Backends?
+   - How to deploy your Websites?
+   - Why Node.js is not single-threaded?
+   - Why security is the most important aspect of Backend Development?
+   - What are Webhooks?
+
+# some best resource
+[5 Interview Questions You Must know as a Backend Developer](https://www.youtube.com/watch?v=ack9Eb7Hvqk)
+
 ### Important questions 
 1. How can we fetch API data without using useEffect hook?
 2. What are the security measures which should be considered during development?
@@ -226,40 +265,5 @@
 51. Performance optimization techniques explain
 52. Shallow and deep copy..explain how will you create it
 53. Various hooks syntax useParam, useReducer, useQuery, useContext and many more.
-## Back end
-  ### Node.js
-   - Routing
-   - How node js work(Asynchronous execution)
-   - Rest API
-   - post, put, get, delete 
-   - Different Type of API's(Rest,soap,diff.)
-   - Middleware
-   - server creation
-   - caching
-   - cookies
-   - session storage(what is session)
-   - error handling
-   - Security
-   - Multithreading ( exec, fork, spawn)
-   - Microservices
-   - writing test case in Node.js
-   - why we use express
-   - privaye route
-### DSA (only for fang)
-   - Tri Node
-   - Sorting
-   - graph trees
-   - Dyanamic programming
-   - stack queue
-   - Recursion
-### System design
-   - How to build Scalable Backends?
-   - How to deploy your Websites?
-   - Why Node.js is not single-threaded?
-   - Why security is the most important aspect of Backend Development?
-   - What are Webhooks?
-
-# some best resource
-[5 Interview Questions You Must know as a Backend Developer](https://www.youtube.com/watch?v=ack9Eb7Hvqk)
      
   
