@@ -46,8 +46,7 @@
 ### Javascript 
    - what is js
      ```
-     single threaded non blocking
-     asynchronous concurrent
+     JavaScript is a Synchronous single-threaded language
      ```
    - Basic Data types
      ```
@@ -68,6 +67,31 @@
      
      ```
    - var, let, const
+   - closure in js
+     ```
+      **definition:** A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a    
+      function access to its outer scope.
+     
+      function fun(){
+        let x=1;
+        return ()=>{
+            x+=2;
+            console.log("outer x"+x);
+            return x;
+        }
+      }
+      
+      const nfun = fun();
+      
+      nfun();
+     
+     ```
+   - Execution context in JS
+     ```
+      1.Memory Component (variable Environment): In this phase, javascript gives memory to all the variables and functions
+      Code Component (Thread of Execution) :
+     
+     ```
    - ES6 new features
      ```
      1. Array Methods with Chainable Calls:
