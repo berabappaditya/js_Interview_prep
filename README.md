@@ -69,7 +69,7 @@
    - var, let, const
    - closure in js
      ```
-      **definition:** A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a    
+      Definition: A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a    
       function access to its outer scope.
      
       function fun(){
@@ -83,14 +83,15 @@
       
       const nfun = fun();
       
-      nfun();
+      nfun();//3
+      nfun();//5
      
      ```
    - Execution context in JS
      ```
-      1.Memory Component (variable Environment): In this phase, javascript gives memory to all the variables and functions
-      Code Component (Thread of Execution) :
-     
+      1. Memory Component (variable Environment): In this phase, javascript gives memory to all the variables and functions
+      2. Code Component (Thread of Execution): In this phase, Javascript assigns a value to a variable and executes the code.
+      Note: A new execution context runs in every scope execution(function, etc..) 
      ```
    - ES6 new features
      ```
