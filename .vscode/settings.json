@@ -1,0 +1,30 @@
+{
+    "workbench.colorCustomizations": {
+        "terminal.background": "#030125",
+        "terminal.foreground": "#19f7b4",
+        "terminalCursor.background": "#5F574F",
+        "terminalCursor.foreground": "#ff7b00",
+        "terminal.ansiBlack": "#050d50",
+        "terminal.ansiBlue": "#83769C",
+        "terminal.ansiBrightBlack": "#008751",
+        "terminal.ansiBrightBlue": "#83769C",
+        "terminal.ansiBrightCyan": "#29ADFF",
+        "terminal.ansiBrightGreen": "#00E756",
+        "terminal.ansiBrightMagenta": "#FF77A8",
+        "terminal.ansiBrightRed": "#FF004D",
+        "terminal.ansiBrightWhite": "#FFF1E8",
+        "terminal.ansiBrightYellow": "#FFF024",
+        "terminal.ansiCyan": "#29ADFF",
+        "terminal.ansiGreen": "#00E756",
+        "terminal.ansiMagenta": "#FF77A8",
+        "terminal.ansiRed": "#FF004D",
+        "terminal.ansiWhite": "#5F574F",
+        "terminal.ansiYellow": "#FFF024",
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f",
+        "activityBar.background": "#073603",
+        "titleBar.activeBackground": "#0A4C04",
+        "titleBar.activeForeground": "#F1FEF0"
+    },
+    "liveServer.settings.port": 5502
+}

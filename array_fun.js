@@ -39,3 +39,9 @@ let sArr = newArr.sort((a, b) => {
   return 0;
 });
 console.log(sArr);
+
+//slice
+let ar=[0,1,2,3,4,5];
+let ar2=arr.slice(1,3)
+console.log(ar2);//[ 1, 2 ]
+

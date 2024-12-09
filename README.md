@@ -166,6 +166,10 @@
    - writing test case in Node.js
    - why we use express
    - privaye route
+   - control function in Node.js
+   - in Node.js, how many Node object methods are available?
+   - stream in node js
+
 ### DSA (only for fang)
    - Tri Node
    - Sorting
@@ -180,7 +184,26 @@
    - Why security is the most important aspect of Backend Development?
    - What are Webhooks?
 
+
 # some best resource
 [5 Interview Questions You Must know as a Backend Developer](https://www.youtube.com/watch?v=ack9Eb7Hvqk)
+
+# Important Links
+   - [How to write a good readme](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+   - [How to write a good readme](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
+   - [Node js totorial](https://www.youtube.com/watch?v=w-7RQ46RgxU)
+   - [Node js architechture](https://www.turing.com/kb/understanding-the-nodejs-architecture)
+
+   <code>
+      const http = require('http');
+      const server = http.createServer((req, res) => {
+        res.writeHead(200, {'Content-Type': 'text/plain'});
+        res.end('Hello, world!\n');
+      });
+
+      server.listen(3000, () => {
+        console.log('Server running at http://localhost:3000/');
+      });
+   </code>
      
   

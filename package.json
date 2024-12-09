@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "interview_prep": "file:",
     "node-fetch": "^3.2.5"
   }
 }
