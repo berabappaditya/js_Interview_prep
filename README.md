@@ -5,6 +5,24 @@
    - HTML5 features
      [read](https://www.browserstack.com/guide/top-html5-features)
    - Proper usage of block scope and inline tags
+      ```
+        Block:
+               <div>
+               <p>
+               <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+               <ul>, <ol>, <li>
+               <header>, <footer>, <section>, <article>, <nav>, <aside>
+               <table>, <tr>, <th>, <td>
+       Inline:
+               <span>
+                <a>
+                <img>
+                <strong>, <b>
+                <em>, <i>
+                <code>
+                <br>
+
+       ```
   ### CSS
    - Different ways to center element
      [Read](https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/)
@@ -26,13 +44,99 @@
    - High order component
    - Custome Hook
 ### Javascript 
+   - what is js
+     ```
+     JavaScript is a Synchronous single-threaded language
+     ```
    - Basic Data types
+     ```
+     Primitive Data Type
+     1.Boolean
+     2.Number
+     3.String
+     4.null
+     5.Undefined
+     6.Symbol
+     Non-Premitive Data Type
+     1.Object
+     2.Array
+     3.Function
+     4.Date
+     5.RegExp
+     6.Others(set,Map)ES6 only
+     
+     ```
    - var, let, const
+   - closure in js
+     ```
+      Definition: A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives a    
+      function access to its outer scope.
+     
+      function fun(){
+        let x=1;
+        return ()=>{
+            x+=2;
+            console.log("outer x"+x);
+            return x;
+        }
+      }
+      
+      const nfun = fun();
+      
+      nfun();//3
+      nfun();//5
+     
+     ```
+   - Execution context in JS
+     ```
+      1. Memory Component (variable Environment): In this phase, javascript gives memory to all the variables and functions
+      2. Code Component (Thread of Execution): In this phase, Javascript assigns a value to a variable and executes the code.
+      Note: A new execution context runs in every scope execution(function, etc..) 
+     ```
    - ES6 new features
+     ```
+     1. Array Methods with Chainable Calls:
+     Ex. arr.map(),arr.filter()
+     2. Spread Operator (...) for In-place Modifications:
+     Ex. const num = [1, 2, 3, 4, 5];
+         numbers.push(...numbers.map(number => number * 2));
+         console.log(numbers); // Output: [2, 4, 6, 8, 10] (original array modified)
+     3. const and let keywords
+     4. Arrow Function
+     5. Classes
+     6. Enhanced object literals
+     7. Template strings
+     8. Rest and spread operators
+     9. Destructuring
+     10. Promises
+     Ex: function asyncFun(){
+                  return new Promise((resolve,reject)=>{
+                        resolve() or reject()
+                   })
+         }
+     
+     
+     ```
    - Event loop in js
+     ![js eventloop](https://github.com/berabappaditya/js_Interview_prep/assets/39941574/ae932c13-ae0e-452b-a297-0e4419de2e81)
+     [Explanation video](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
+
    - OOPs
    - Async Await
    - Hoisting
+   - curring (!imp)
+     ```
+        function add(a) {
+          return function (b) {
+            if (b) {
+              return add(a + b);
+            }
+            return a;
+          };
+        }
+        
+        console.log(add(1)(2)(3)(4)(5)());
+     ```
    - setTime out
    - Lexical Scope
    - Scope chain
@@ -93,6 +197,45 @@
 ## Typescript
    - Inteface
    - oops concept
+
+## Back end
+  ### Node.js
+   - Routing
+   - How node js work(Asynchronous execution)
+   - Rest API
+   - post, put, get, delete 
+   - Different Type of API's(Rest,soap,diff.)
+   - Middleware
+   - server creation
+   - caching
+   - cookies
+   - session storage(what is session)
+   - error handling
+   - Security
+   - Multithreading ( exec, fork, spawn)
+   - Microservices
+   - writing test case in Node.js
+   - why we use express
+   - privaye route
+### MongoDB
+   - Aggregate queries (VVI)
+### DSA (only for fang)
+   - Tri Node
+   - Sorting
+   - graph trees
+   - Dyanamic programming
+   - stack queue
+   - Recursion
+### System design
+   - How to build Scalable Backends?
+   - How to deploy your Websites?
+   - Why Node.js is not single-threaded?
+   - Why security is the most important aspect of Backend Development?
+   - What are Webhooks?
+
+# some best resource
+[5 Interview Questions You Must know as a Backend Developer](https://www.youtube.com/watch?v=ack9Eb7Hvqk)
+
 ### Important questions 
 1. How can we fetch API data without using useEffect hook?
 2. What are the security measures which should be considered during development?
